@@ -1,9 +1,9 @@
 # Projeto Banco com Python
 
-    Movido pelos estudos sobre a linguagem Python do curso "Formação Python" da DIO, decidi tentar criar um software de um banco capaz de criar usuários, criar contas para os usuários, permitir a realização de transações e calcular o risco de crédito dos usuários.
+Movido pelos estudos sobre a linguagem Python do curso "Formação Python" da DIO, decidi tentar criar um software de um banco capaz de criar usuários, criar contas para os usuários, permitir a realização de transações e calcular o risco de crédito dos usuários.
 
 ## Descrição
-    O projeto consiste em um sistema gráfico para criação e exclusão de clientes e contas de um banco. As contas podem ser submetidas às ações "sacar" e "depositar". Etapas futuras:
+O projeto consiste em um sistema gráfico para criação e exclusão de clientes e contas de um banco. As contas podem ser submetidas às ações "sacar" e "depositar". Etapas futuras:
         1. Implementar banco de dados SQL usando SQLAIchemy
         2. Implementar uma versão com banco de dados MongoDB Atlas
         3. Será utilizada inteligencia artificial e machine learning para calcular o risco de crédito dosclientes com base na referência "https://github.com/ThiagoFQ/Python/blob/main/credit-scoring-bank.ipynb".
