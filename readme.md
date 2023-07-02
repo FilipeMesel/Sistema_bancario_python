@@ -11,14 +11,16 @@ O projeto consiste em um sistema gráfico para criação e exclusão de clientes
 ## Bibliotecas e Frameworks utilizados
 
 ## Entidades do projeto
-    - Conta: Classe que representa uma conta bancária, com os métodos: imprimir_saldo, imprimir_historico, sacar, depositar
-    - Cliente: Classe que representa um cliente do banco, com os métodos: adicionar_conta, listar_contas, remover_conta
-    - RpositorioClientes: Classe que representa um repositóirio de vários clientes do banco, com os métodos: adicionar_cliente, listar_clientes, excluir_cliente, listar_contas_cliente, criar_conta, transacionar_conta, apagar_conta, buscar_cliente_id, buscar_conta_cliente.
+- Conta: Classe que representa uma conta bancária, com os métodos: imprimir_saldo, imprimir_historico, sacar, depositar
+- Cliente: Classe que representa um cliente do banco, com os métodos: adicionar_conta, listar_contas, remover_conta
+- RpositorioClientes: Classe que representa um repositóirio de vários clientes do banco, com os métodos: adicionar_cliente, listar_clientes, excluir_cliente, listar_contas_cliente, criar_conta, transacionar_conta, apagar_conta, buscar_cliente_id, buscar_conta_cliente.
 
 ## Como executar esse código:
-    1. Instalação das bibliotecas nescessárias:
-        a. pyqt [Interface gráfica]: pip install pyqt5
-        b. pytest [Testes unitários e automatizados]: pip install pytest
-    2. Execução do software:
+1. Instalação das bibliotecas nescessárias:
+a. pyqt [Interface gráfica]:
+        pip install pyqt5
+b. pytest [Testes unitários e automatizados]:
+        pip install pytest
+3. Execução do software:
         python SWBanco.py
-    3. Login e senha de acesso ao sistema: "Admin"
+4. Login e senha de acesso ao sistema: "Admin"
