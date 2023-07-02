@@ -17,9 +17,9 @@ O projeto consiste em um sistema gráfico para criação e exclusão de clientes
 
 ## Como executar esse código:
 1. Instalação das bibliotecas nescessárias:
-a. pyqt [Interface gráfica]:
+pyqt [Interface gráfica]:
         pip install pyqt5
-b. pytest [Testes unitários e automatizados]:
+pytest [Testes unitários e automatizados]:
         pip install pytest
 3. Execução do software:
         python SWBanco.py
