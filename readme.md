@@ -3,10 +3,11 @@
 Movido pelos estudos sobre a linguagem Python do curso "Formação Python" da DIO, decidi tentar criar um software de um banco capaz de criar usuários, criar contas para os usuários, permitir a realização de transações e calcular o risco de crédito dos usuários.
 
 ## Descrição
-O projeto consiste em um sistema gráfico para criação e exclusão de clientes e contas de um banco. As contas podem ser submetidas às ações "sacar" e "depositar". Etapas futuras:
-    1. Implementar banco de dados SQL usando SQLAIchemy
-    2. Implementar uma versão com banco de dados MongoDB Atlas
-    3. Será utilizada inteligencia artificial e machine learning para calcular o risco de crédito dosclientes com base na referência "https://github.com/ThiagoFQ/Python/blob/main/credit-scoring-bank.ipynb".
+O projeto consiste em um sistema gráfico para criação e exclusão de clientes e contas de um banco. As contas podem ser submetidas às ações "sacar" e "depositar". Etapas executadas e futuras:
+    1. Transformação das classes "Cliente" e "Conta" em módulos a serem utilizadoss
+    2. Implementar banco de dados SQL usando SQLAIchemy
+    3. Implementar uma versão com banco de dados MongoDB Atlas
+    4. Será utilizada inteligencia artificial e machine learning para calcular o risco de crédito dosclientes com base na referência "https://github.com/ThiagoFQ/Python/blob/main/credit-scoring-bank.ipynb".
 
 ## Etapas que esse projeto passou
 Ao longo dos estudos do curso "Formação Python" da DIO, passamos por diversos passos de conhecimento e estudo. Esse projeto, portanto, veio passando por mudanças em sua estrutura e a linha do tempo vem apresentada abaixo:
@@ -17,6 +18,13 @@ Ao longo dos estudos do curso "Formação Python" da DIO, passamos por diversos 
 
         
 ## Bibliotecas e Frameworks utilizados
+-PyQT5
+-PyTest
+datetime
+sys
+setuptools:
+
+    pip install setuptools
 
 ## Entidades do projeto
 - Conta: Classe que representa uma conta bancária, com os métodos: imprimir_saldo, imprimir_historico, sacar, depositar

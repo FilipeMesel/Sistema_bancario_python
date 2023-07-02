@@ -1,7 +1,8 @@
 Metadata-Version: 2.1
 Name: Cliente
-Version: 0.0.2
+Version: 0.0.3
 Summary: Módulo que representa a classe Cliente do sistema bancário
+Description-Content-Type: text/markdown
 
 # Classe Cliente
 
