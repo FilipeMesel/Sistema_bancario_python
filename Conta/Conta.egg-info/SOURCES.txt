@@ -1,0 +1,7 @@
+setup.py
+Conta/Conta.py
+Conta/__init__.py
+Conta.egg-info/PKG-INFO
+Conta.egg-info/SOURCES.txt
+Conta.egg-info/dependency_links.txt
+Conta.egg-info/top_level.txt

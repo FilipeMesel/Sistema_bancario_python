@@ -1,7 +1,7 @@
 import pytest
-from Cliente import Cliente
 from Repositorio_de_Clientes import RepositorioClientes
-from Conta import Conta
+from Conta.Conta import Conta
+from Cliente.Cliente import Cliente
 
 # python -m pytest Testes_Repositorio_Clientes.py --html=report.html
 

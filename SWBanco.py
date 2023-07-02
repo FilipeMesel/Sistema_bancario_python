@@ -2,8 +2,8 @@ import sys
 from PyQt5.QtWidgets import QWidget, QLabel, QLineEdit, QSpinBox, QComboBox, QPushButton, QVBoxLayout, QGridLayout
 from PyQt5.QtWidgets import QComboBox, QApplication, QListWidget, QListWidgetItem, QHBoxLayout
 from datetime import datetime as dt
-from Conta import Conta
-from Cliente import Cliente
+from Conta.Conta import Conta
+from Cliente.Cliente import Cliente
 from Repositorio_de_Clientes import RepositorioClientes
 
 repositorio = RepositorioClientes()

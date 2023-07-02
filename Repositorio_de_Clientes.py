@@ -86,7 +86,7 @@
 #         return None
 
 from datetime import datetime as dt
-from Conta import Conta
+from Conta.Conta import Conta
 
 class RepositorioClientes:
     def __init__(self):
