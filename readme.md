@@ -4,9 +4,9 @@ Movido pelos estudos sobre a linguagem Python do curso "Formação Python" da DI
 
 ## Descrição
 O projeto consiste em um sistema gráfico para criação e exclusão de clientes e contas de um banco. As contas podem ser submetidas às ações "sacar" e "depositar". Etapas futuras:
-        1. Implementar banco de dados SQL usando SQLAIchemy
-        2. Implementar uma versão com banco de dados MongoDB Atlas
-        3. Será utilizada inteligencia artificial e machine learning para calcular o risco de crédito dosclientes com base na referência "https://github.com/ThiagoFQ/Python/blob/main/credit-scoring-bank.ipynb".
+1. Implementar banco de dados SQL usando SQLAIchemy
+2. Implementar uma versão com banco de dados MongoDB Atlas
+3. Será utilizada inteligencia artificial e machine learning para calcular o risco de crédito dosclientes com base na referência "https://github.com/ThiagoFQ/Python/blob/main/credit-scoring-bank.ipynb".
         
 ## Bibliotecas e Frameworks utilizados
 
@@ -16,11 +16,8 @@ O projeto consiste em um sistema gráfico para criação e exclusão de clientes
 - RpositorioClientes: Classe que representa um repositóirio de vários clientes do banco, com os métodos: adicionar_cliente, listar_clientes, excluir_cliente, listar_contas_cliente, criar_conta, transacionar_conta, apagar_conta, buscar_cliente_id, buscar_conta_cliente.
 
 ## Como executar esse código:
-1. Instalação das bibliotecas nescessárias:
-pyqt [Interface gráfica]:
-        pip install pyqt5
-pytest [Testes unitários e automatizados]:
-        pip install pytest
+1. Instalação da biblioteca pyqt [Interface gráfica]: pip install pyqt5
+2. Instalação da biblioteca pytest [Testes unitários e automatizados]: pip install pytest
 3. Execução do software:
         python SWBanco.py
 4. Login e senha de acesso ao sistema: "Admin"
