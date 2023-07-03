@@ -18,10 +18,16 @@ Ao longo dos estudos do curso "Formação Python" da DIO, passamos por diversos 
 
         
 ## Bibliotecas e Frameworks utilizados
--PyQT5
--PyTest
-datetime
-sys
+-PyQT5:
+
+    pip install PyQt5
+
+-PyTest:
+
+    pip install pytest
+
+-datetime: Integrado ao Python
+-sys: Integrado ao python 
 setuptools:
 
     pip install setuptools
