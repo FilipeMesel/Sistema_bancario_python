@@ -9,7 +9,8 @@ with open('requirements.txt') as f:
 
 setup(
     name='Cliente',
-    version='0.0.4',
+    version='0.0.6',
+    author='Filipe Mesel Lobo Costa Cardoso',
     description='Módulo que representa a classe Cliente do sistema bancário',
     long_description=page_description,
     long_description_content_type="text/markdown",
