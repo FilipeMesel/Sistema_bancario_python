@@ -1,5 +1,19 @@
 from datetime import datetime as dt
 
+# Para subir qualquer alteração desse pacote:
+# 1. Altere a versão no setup.py
+# 2. Certifique-se que você está dentro da pasta Cliente
+# 3. execute: python setup.py sdist bdist
+# 4. Para publicar o test.pypi (repositório pip de testes para novas libs oficial do python):
+#    python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+
+#Vai ser solicitado seu login e senha do pipy que são os mesmos usados em "https://test.pypi.org"
+
+# 5. Para publicar o pypi (repositório pip para novas libs oficial do python):
+#    python -m twine upload --repository-url https://upload.pypi.org/legacy/ dist/*
+
+#Vai ser solicitado seu login e senha do pipy que são os mesmos usados em "https://test.pypi.org"
+
 class Cliente:
     contador_id = 0
 

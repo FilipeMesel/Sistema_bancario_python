@@ -54,15 +54,6 @@ def test_criar_conta(repo_clientes):
         print(conta.saldo)
     assert len(contas) == 1
 
-# def test_criar_conta2(repo_clientes):
-#     cliente = Cliente("João", 30, "01/01/1990", 2, 1000, 30, "Ensino Médio", 1, "Casado", 1, "Masculino",
-#                       "Assalariado", False, 5000, "Comprar uma casa")
-#     repo_clientes.adicionar_cliente(cliente)
-#     # conta = Conta(saldo=1000, limite_saques=3)
-#     repo_clientes.criar_conta(client_id = cliente.id, saldo=1000, limite_saques=3)
-#     contas = repo_clientes.listar_contas_cliente(cliente.id)
-#     assert len(contas) == 1
-
 def test_transacionar_conta(repo_clientes):
     cliente = Cliente("João", 30, "01/01/1990", 2, 1000, 30, "Ensino Médio", 1, "Casado", 1, "Masculino",
                       "Assalariado", False, 5000, "Comprar uma casa")
