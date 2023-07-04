@@ -15,6 +15,7 @@ Ao longo dos estudos do curso "Formação Python" da DIO, passamos por diversos 
 | Linha do tempo | Eventos  |
 |----------------|----------|
 | 02/07/2023     | Transformou-se as classes "Cliente" e "Conta" em dois módulos usando os conceitos aprendidos no curso "Formação Python". Pode ser que seja nescessário efetuar "pip install Cliente" e "pip install Conta"   |
+| 03/07/2023     | Transformou-se as classes "Cliente" e "Conta" em duas classes usando os conceitos aprendidos no curso "Formação Python". Pode ser que seja nescessário efetuar "pip install SQLAIchemy"   |
 
         
 ## Bibliotecas e Frameworks utilizados
