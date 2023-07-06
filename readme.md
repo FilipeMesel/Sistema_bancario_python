@@ -4,10 +4,10 @@ Movido pelos estudos sobre a linguagem Python do curso "Formação Python" da DI
 
 ## Descrição
 O projeto consiste em um sistema gráfico para criação e exclusão de clientes e contas de um banco. As contas podem ser submetidas às ações "sacar" e "depositar". Etapas executadas e futuras:
-    1. Transformação das classes "Cliente" e "Conta" em módulos a serem utilizadoss
-    2. Implementar banco de dados SQL usando SQLAIchemy
-    3. Implementar uma versão com banco de dados MongoDB Atlas
-    4. Será utilizada inteligencia artificial e machine learning para calcular o risco de crédito dosclientes com base na referência "https://github.com/ThiagoFQ/Python/blob/main/credit-scoring-bank.ipynb".
+1. Transformação das classes "Cliente" e "Conta" em módulos a serem utilizadoss
+2. Implementar banco de dados SQL usando SQLAIchemy
+3. Implementar uma versão com banco de dados MongoDB Atlas
+4. Será utilizada inteligencia artificial e machine learning para calcular o risco de crédito dosclientes com base na referência "https://github.com/ThiagoFQ/Python/blob/main/credit-scoring-bank.ipynb".
 
 ## Etapas que esse projeto passou
 Ao longo dos estudos do curso "Formação Python" da DIO, passamos por diversos passos de conhecimento e estudo. Esse projeto, portanto, veio passando por mudanças em sua estrutura e a linha do tempo vem apresentada abaixo:
@@ -18,10 +18,16 @@ Ao longo dos estudos do curso "Formação Python" da DIO, passamos por diversos 
 
         
 ## Bibliotecas e Frameworks utilizados
--PyQT5
--PyTest
-datetime
-sys
+-PyQT5:
+
+    pip install PyQt5
+
+-PyTest:
+
+    pip install pytest
+
+-datetime: Integrado ao Python
+-sys: Integrado ao python 
 setuptools:
 
     pip install setuptools
