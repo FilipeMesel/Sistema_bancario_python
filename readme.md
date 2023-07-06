@@ -15,13 +15,22 @@ Ao longo dos estudos do curso "Formação Python" da DIO, passamos por diversos 
 | Linha do tempo | Eventos  |
 |----------------|----------|
 | 02/07/2023     | Transformou-se as classes "Cliente" e "Conta" em dois módulos usando os conceitos aprendidos no curso "Formação Python". Pode ser que seja nescessário efetuar "pip install Cliente" e "pip install Conta"   |
-| 03/07/2023     | Transformou-se as classes "Cliente" e "Conta" em duas classes usando os conceitos aprendidos no curso "Formação Python". Pode ser que seja nescessário efetuar "pip install SQLAIchemy"   |
+| 03/07/2023     | Transformou-se as classes "Cliente" e "Conta" em duas classses do SQLAIchemy de forma tal que as contas são associadas aos Clientes no modelo um (Cliente) para vários (Contas)   |
+| 04/07/2023     | Excluiu-se a interface gráfica para dar acesso a api Flask para integrações em ambientes online   |
 
         
 ## Bibliotecas e Frameworks utilizados
 -PyQT5:
 
-    pip install PyQt5
+    pip install pyqt5
+
+-Flask:
+
+    pip install Flask
+
+-SQLAIchemy:
+
+    pip install SQLAlchemy
 
 -PyTest:
 
@@ -40,16 +49,24 @@ setuptools:
 
 ## Como executar esse código:
 1. Instalação das bibliotecas nescessárias:
-        a. pyqt [Interface gráfica]: 
+    a. Flask [Microframework para otimizar a api]: 
+
+            pip install Flask
+
+    b. SQLAIchemy [Framework para otimizar o acesso ao banco de dados relacional]: 
+
+            pip install SQLAlchemy
+
+    c. pytest [Testes unitários e automatizados]: 
+                
+                pip install pytest
+
+    d. pyqt5 [Usado para elaboração das interfaces gráficas]: 
 
             pip install pyqt5
-
-    b. pytest [Testes unitários e automatizados]: 
-            
-            pip install pytest
 
 2. Execução do software:
 
         python SWBanco.py
 
-3. Login e senha de acesso ao sistema: "Admin"
+3. Login e senha de acesso ao sistema de interfaces gráficas: "Admin"
