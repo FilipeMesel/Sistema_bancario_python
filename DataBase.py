@@ -4,8 +4,12 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, relationship
 import json
 
-# Cria uma conexão com o banco de dados SQLite em memória
-engine = create_engine('sqlite:///:memory:', echo=True)
+
+# Cria uma conexão com o banco de dados SQLite em memória (Não funciona muito bem com Flask)
+# engine = create_engine('sqlite:///:memory:', echo=True)
+
+# Cria uma conexão com o banco de dados SQLite em memória (Funciona com Flask)
+engine = create_engine('sqlite:///database.db', echo=True)
 
 Base = declarative_base()
 
